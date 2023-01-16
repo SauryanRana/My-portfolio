@@ -1,0 +1,151 @@
+body{
+  background-color: #ffffff;
+  /* Set the text color to black */
+  color: black;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 0.1% 10%;
+}
+
+/* Sections */
+
+.top-section {
+  background-color: #090A0B;
+
+}
+
+
+/* Navigation Bar */
+.navbar-toggler {
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: #090A0B;
+  padding: 0 0 0 0rem;
+  font-family: "Play";
+
+}
+
+.navbar-brand {
+  font-family: "Long Cang";
+  font-size: 50px;
+  color: #ffffff;
+  align-self: center;
+}
+
+.navbar-brand:hover{
+    color: #F6BE00;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #F6BE00;
+}
+
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Play";
+}
+
+
+/*body */
+h1{
+    text-align: center;
+    font-family: "Play";
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+img {
+    border-radius: 10px;
+    display: block; /* collapse top and bottom margins */
+    max-width: 100%;
+  }
+
+  .gallery-grid {
+
+    border-radius: 10px;
+    background: #F2F3F5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px, -webkit-max-content);
+    grid-auto-rows: minmax(0px, max-content);
+    grid-auto-flow: dense;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+  }
+
+  .galley-item video{
+    cursor: pointer;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-item img {
+    cursor: pointer;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+
+    .gallery-item video:hover {
+      transform: scale(1.15);
+      transition: transform .4s;
+
+    }
+
+  .gallery-item img:hover {
+    transform: scale(1.15);
+    transition: transform .4s;
+
+  }
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.bottom-container{
+  background-color:#090A0B;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.social-icon {
+  color: #ffffff;
+  margin: 20px 10px;
+}
+
+.social-icon :hover {
+    color: #F6BE00;
+  }
+
+
+
+footer {
+    /* Set the text color to white */
+    color: white;
+  }

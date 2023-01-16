@@ -1,0 +1,131 @@
+element {
+  background-color: #000000);
+}
+
+
+video {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url('images/trial1.mp4') no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: 50% 10%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1,p{
+  color: #ffffff;
+}
+
+h1 {
+  margin-top: 10%;
+  text-align: center;
+  font-family: "Long Cang";
+  font-size: 95px;
+  letter-spacing: -0.05em;
+
+}
+
+p{
+  text-align: center;
+  font-family: "Play";
+  font-size: 1.2rem;
+}
+
+ul {
+  margin-top: 30px;
+  display: block;
+  padding-right: 40px;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+}
+
+li:hover {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Play";
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#F6BE00;
+  font-size: 1.3em;
+}
+
+/* ANIMATION */
+.reveal {
+  /* Set the initial state of the element */
+  opacity: 0;
+
+  /* Add the transition properties */
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
+/*slide up */
+
+
+
+/*mobile view */
+
+@media (max-width: 768px) {
+
+  h1 {
+    margin-top: 30%;
+    font-size: 55px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+}
+
+
+.social-icon {
+
+  color: #ffffff;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.social-icon :hover {
+    color: #F6BE00;
+
+  }

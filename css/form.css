@@ -1,0 +1,120 @@
+body{
+  background-color: #ffffff;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 0.1% 10%;
+}
+
+/* Sections */
+
+.top-section {
+  background-color: #090A0B;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar-toggler {
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: #101010;
+  padding: 0 0 0 0rem;
+  font-family: "Play";
+
+}
+
+.navbar-brand {
+  font-family: "Long Cang";
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color: #F6BE00;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #F6BE00;
+}
+
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Play";
+}
+
+
+
+
+
+/*form*/
+
+.form-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-family: "Play";
+  font-size: 40px;
+
+
+}
+
+.btn-custom {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.btn-custom:hover {
+  background-color: #F6BE00;
+}
+
+
+
+/*footer*/
+
+.bottom-container{
+  background-color:#090A0B;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.social-icon {
+  color: #ffffff;
+  margin: 20px 10px;
+}
+
+.social-icon :hover {
+    color: #F6BE00;
+  }
+
+
+
+p {
+  color: #ffffff;
+  font-family: "Play";
+}

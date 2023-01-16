@@ -1,0 +1,148 @@
+body{
+  background-color: #ffffff;
+  /* Set the text color to black */
+  color: black;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 0.1% 10%;
+}
+
+/* Sections */
+
+.top-section {
+  background-color: #090A0B;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar-toggler {
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: #090A0B;
+  padding: 0 0 0 0rem;
+  font-family: "Play";
+
+}
+
+.navbar-brand {
+  font-family: "Long Cang";
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color: #F6BE00;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #F6BE00;
+}
+
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Play";
+}
+
+
+/*body*/
+h1{
+  text-align: center;
+  font-family: "Play";
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+p{
+  margin-bottom: 30px;
+  font-family: "Play";
+  font-size: 16px;
+}
+
+h5 {
+  font-family: "Play";
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 450px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.bottom-container{
+  background-color:#090A0B;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.social-icon {
+  color: #ffffff;
+  margin: 20px 10px;
+}
+
+.social-icon :hover {
+    color: #F6BE00;
+  }
+
+
+  footer {
+    /* Set the text color to white */
+    color: white;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .card-img-top {
+      height: 250px;
+
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 15px;
+
+    }
+
+    li {
+      font-size: 15px;
+    }
+  }
